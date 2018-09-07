@@ -7,3 +7,5 @@ class Solution(object):
         """
         numi = len(nums)
         nums[:] = nums[numi-k:] + nums[:numi-k]
+
+        
