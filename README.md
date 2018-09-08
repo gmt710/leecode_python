@@ -1,2 +1,2 @@
-# leecode_python
+# leetcode_python
 Record my learning process.
