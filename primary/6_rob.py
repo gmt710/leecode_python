@@ -10,7 +10,8 @@ class Solution(object):
             return nums[0]
         if len(nums) == 2:
             return max(nums[0], nums[1])
-
+        
+        #dp[i]表示从0-i户可以打劫到的最大钱数
         dp = [0]*len(nums)
         dp[0] = nums[0]
         dp[1] = max(nums[1],nums[0])
