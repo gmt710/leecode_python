@@ -4,6 +4,7 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: List[int]
         """
+        # 引自https://blog.csdn.net/weixin_41958153/article/details/81141614
         # 设置四种case，观察到第一种case是行不变列一直在变，第二种case的列数不变行数变，以此类推。
         # 并且可以发现规律，第一次遍历的个数等于列数，第二次遍历的个数等于行数减一，
         # 第三次等于列数减一，第四次等于行数再减一
