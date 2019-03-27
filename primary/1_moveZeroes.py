@@ -16,3 +16,14 @@ class Solution(object):
         for j in range(num_0):
             nums1.append(0)
         nums[:] = nums1[:]
+# class Solution:
+#     def moveZeroes(self, nums: List[int]) -> None:
+#         """
+#         Do not return anything, modify nums in-place instead.
+#         """
+#         count_num = collections.Counter(nums)
+#         for i in range(int(count_num[0])):
+#             nums.remove(0)
+#             nums.append(0)
+        
+        
