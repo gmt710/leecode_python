@@ -32,7 +32,7 @@ class Solution(object):
                     top = stack.pop()
                     if top < 0:
                         # 如果为-，先取绝对值后再取反
-                        stack.append(-(abs(top)/num))
+                        stack.append(-(abs(top)//num))
                     else:
                         # 直接取整
                         stack.append(top // num)
